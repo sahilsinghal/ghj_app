@@ -5,7 +5,8 @@ class Gallery extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("Gallery")));
+        appBar: AppBar(title: Text("Gallery"),
+            backgroundColor: Colors.teal));
   }
 
 }

@@ -5,7 +5,8 @@ class Bhav extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("Bhavs")));
+        appBar: AppBar(title: Text("Bhavs"),
+        backgroundColor: Colors.teal));
   }
 
 }
